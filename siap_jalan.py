@@ -3493,5 +3493,3 @@ if __name__ == '__main__':
             default_admin = User(username='admin', password_hash=generate_password_hash('admin'))
             db.session.add(default_admin)
             db.session.commit()
-            
-    app.run(debug=True, port=5000)
